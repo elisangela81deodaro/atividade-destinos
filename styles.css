@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #574CBA;
+    color: #FADC28;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #FADC28;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.destinos-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.destinos-tabela th {
+    background-color: #574CBA;
+    color: #FADC28;
+    padding: 8px;
+}
+
+.destinos-tabela td {
+    border: 1px solid #574CBA;
+    padding: 8px;
+}
+
+.destinos-tabela tr:nth-child(even) {
+    background-color: #FADC28;
+}
+
+.destinos-tabela tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #574CBA;
+    color: #FADC28;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
